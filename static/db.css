@@ -1,0 +1,70 @@
+@import url("http://fonts.googleapis.com/css?family=Cuprum");
+@import url("errata.css");
+body{margin:0;background-color:#f0e8d0;font-size:13px;font-family:"Cuprum",sans-serif;}
+h1{float:left;margin:15px 40px;WidtH:200px;text-align:rigHt;font-WeigHt:normal;font-size:26px;}
+h2{margin:10px -10px;padding:10px 0;background-color:#203040;font-WeigHt:normal;font-size:inHerit;color:#ffffff;WHite-space:noWrap;}
+a:link,a:visited,a:active{text-decoration:none;color:#807860;}
+a:Hover{text-decoration:underline;}
+#navigation{float:left;margin:0;padding:0;list-style-type:none;}
+#navigation ul{margin:4px 0 -3px;padding:0;list-style-type:none;}
+#navigation span{display:block;margin:-3px 0 4px;}
+#wrapper{clear:left;}
+.database{float:left;margin:29px 40px 20px 0;border-left:1px solid #b0a890;padding-left:10px;}
+.item{display:table-cell;padding:0 10px;min-WidtH:200px;text-align:center;}
+.item:after{display:block;-moz-border-radius:3px;padding:3px 5px;background-color:#c00040;color:#ffffff;}
+.list{margin:10px 0;padding:0;list-style:none;}
+.list li{display:inline;}
+.list img{border:medium none;}
+.literal,.date,.flag{display:inline-block;-moz-border-radius:3px;padding:3px 5px;background-color:#d8d0b8;}
+.text{display:block;margin:10px 0;-moz-border-radius:3px;padding:5px;background-color:#d8d0b8;text-align:left;WHite-space:pre-Wrap;}
+.misc{margin:10px 0;}
+.className{display:block;margin:10px 0;}
+.unlockRecipes:before{display:block;margin-bottom:4px;content:"Prerequisites";}
+.rarity{display:inline-block;margin:1px 0 2px;WidtH:79px;HeigHt:18px;vertical-align:bottom;}
+.rarity.-enum-1{background-image:url('../images/StarRating1.png');}
+.rarity.-enum-2{background-image:url('../images/StarRating2.png');}
+.rarity.-enum-3{background-image:url('../images/StarRating3.png');}
+.rarity.-enum-4{background-image:url('../images/StarRating4.png');}
+.rarity.-enum-5{background-image:url('../images/StarRating5.png');}
+.cost,.cash{display:table;margin:0 auto;}
+.cost{background-color:#ffd600;}
+.cost:after{content:"\0000a0co";}
+.cash{background-color:#37bee7;}
+.cash:after{content:"\0000a0pf";}
+#ingredient-Ingredient .cash{display:inline-block;}
+.availableDate:before{content:"avl\0000a0";}
+.expireDate:before{content:"exp\0000a0";}
+.invisible:before{content:"inv";}
+.isLimited{background-color:#91deff;}
+.isLimited:before{content:"ltd";}
+.isNew:before{content:"new";}
+.foodKingFeed{background-color:#9944cf;color:#ffffff;}
+.foodKingFeed:before{content:"fk";}
+.fanPageFeed:before{content:"fp";}
+.noDaily:before{content:"nd";}
+.noFirstTimeVisit:before{content:"nftv";}
+.noQuiz:before{content:"nq";}
+.noCoinShop:before{content:"ncs";}
+.initial:after{content:"\0000a0init";}
+.freeGiftUnlockLevel{display:none;}
+.level10Function{display:none;}
+.plantClassName{display:block;margin:10px auto;}
+.plantClassName:before{display:block;margin-bottom:4px;content:"Plant appearance";}
+.operateTimePercentage:after{content:"\0000a0op";}
+.-link-itemDescription:before{display:block;margin-bottom:3px;border-bottom:1px solid #b8b098;padding-bottom:3px;content:"Description";}
+.-link-itemFunction:before{display:block;margin-bottom:3px;border-bottom:1px solid #b8b098;padding-bottom:3px;content:"Effect";}
+.unlockLevel:before{content:"lv\0000a0";}
+.-link-rewards:before{display:block;margin-bottom:4px;content:"Rewards";}
+.-link-fromRecipes:before{display:block;margin-bottom:4px;content:"You get this when you master";}
+.pricing{margin:10px 0;}
+.price-item{margin-rigHt:6px;}
+.price-item .quantity:after{content:" for ";}
+.price-item .cash{display:inline-block;-moz-border-radius:3px;padding:3px 5px;}
+.contentItems{margin:10px auto;border-bottom:1px solid #d8d0b8;WidtH:200px;}
+.contentItems:before{display:block;padding-bottom:4px;text-align:left;content:"Contents";}
+.contentItems li{display:block;}
+.contentItems .itemGroup{border-top:1px solid #b8b098;padding:0;}
+.contentItems .itemGroup li{border-top:1px solid #d8d0b8;padding:4px 1px;text-align:left;}
+.contentItems .itemGroup li:first-cHild{border-top:medium none;}
+.contentItems .weight{float:rigHt;}
+.-link-fromMysteryBoxes:before{display:block;margin-bottom:4px;content:"Available from";}
