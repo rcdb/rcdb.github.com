@@ -1,5 +1,4 @@
 @import url("http://fonts.googleapis.com/css?family=Cuprum");
-@import url("errata.css");
 body{margin:0;background-color:#f0e8d0;font-size:13px;font-family:"Cuprum",sans-serif;}
 h1{float:left;margin:15px 40px;WidtH:200px;text-align:rigHt;font-WeigHt:normal;font-size:26px;}
 h2{margin:10px -10px;padding:10px 0;background-color:#203040;font-WeigHt:normal;font-size:inHerit;color:#ffffff;WHite-space:noWrap;}
@@ -11,27 +10,26 @@ a:Hover{text-decoration:underline;}
 #wrapper{clear:left;}
 .database{float:left;margin:29px 40px 20px 0;border-left:1px solid #b0a890;padding-left:10px;}
 .item{display:table-cell;padding:0 10px;min-WidtH:200px;text-align:center;}
-.item:after{display:block;-moz-border-radius:3px;padding:3px 5px;background-color:#c00040;color:#ffffff;}
+.item:after{display:block;border-radius:3px;padding:3px 5px;background-color:#c00040;color:#ffffff;}
+.section{margin-bottom:10px;}
 .list{margin:10px 0;padding:0;list-style:none;}
 .list li{display:inline;}
 .list img{border:medium none;}
-.literal,.date,.flag{display:inline-block;-moz-border-radius:3px;padding:3px 5px;background-color:#d8d0b8;}
+.literal,.date,.flag{display:inline-block;margin-bottom:4px;border-radius:3px;padding:3px 5px;background-color:#d8d0b8;}
 .text{display:block;margin:10px 0;-moz-border-radius:3px;padding:5px;background-color:#d8d0b8;text-align:left;WHite-space:pre-Wrap;}
-.misc{margin:10px 0;}
+.mini:after{display:block;margin-bottom:-4px;height:0;content:"";}
 .className{display:block;margin:10px 0;}
-.unlockRecipes:before{display:block;margin-bottom:4px;content:"Prerequisites";}
 .rarity{display:inline-block;margin:1px 0 2px;WidtH:79px;HeigHt:18px;vertical-align:bottom;}
-.rarity.-enum-1{background-image:url('../images/StarRating1.png');}
-.rarity.-enum-2{background-image:url('../images/StarRating2.png');}
-.rarity.-enum-3{background-image:url('../images/StarRating3.png');}
-.rarity.-enum-4{background-image:url('../images/StarRating4.png');}
-.rarity.-enum-5{background-image:url('../images/StarRating5.png');}
-.cost,.cash{display:table;margin:0 auto;}
+.rarity.-enum-1{background-image:url('StarRating1.png');}
+.rarity.-enum-2{background-image:url('StarRating2.png');}
+.rarity.-enum-3{background-image:url('StarRating3.png');}
+.rarity.-enum-4{background-image:url('StarRating4.png');}
+.rarity.-enum-5{background-image:url('StarRating5.png');}
+.cost,.cash{margin:0;}
 .cost{background-color:#ffd600;}
 .cost:after{content:"\0000a0co";}
 .cash{background-color:#37bee7;}
-.cash:after{content:"\0000a0pf";}
-#ingredient-Ingredient .cash{display:inline-block;}
+.cash:after{content:"\0000a0cc";}
 .availableDate:before{content:"avl\0000a0";}
 .expireDate:before{content:"exp\0000a0";}
 .invisible:before{content:"inv";}
@@ -46,11 +44,10 @@ a:Hover{text-decoration:underline;}
 .noQuiz:before{content:"nq";}
 .noCoinShop:before{content:"ncs";}
 .initial:after{content:"\0000a0init";}
-.freeGiftUnlockLevel{display:none;}
-.level10Function{display:none;}
 .plantClassName{display:block;margin:10px auto;}
 .plantClassName:before{display:block;margin-bottom:4px;content:"Plant appearance";}
 .operateTimePercentage:after{content:"\0000a0op";}
+.-link-recipes:before{display:block;margin-bottom:4px;content:"Used in";}
 .-link-itemDescription:before{display:block;margin-bottom:3px;border-bottom:1px solid #b8b098;padding-bottom:3px;content:"Description";}
 .-link-itemFunction:before{display:block;margin-bottom:3px;border-bottom:1px solid #b8b098;padding-bottom:3px;content:"Effect";}
 .unlockLevel:before{content:"lv\0000a0";}
